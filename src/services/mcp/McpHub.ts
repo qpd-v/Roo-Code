@@ -588,6 +588,7 @@ export class McpHub {
 				},
 			},
 			CallToolResultSchema,
+			{ timeout: 1800000 },
 		)
 	}
 
